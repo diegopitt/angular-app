@@ -24,4 +24,5 @@ angular.module('admin-users', [
       }],
       currentUser: securityAuthorizationProvider.requireAdminUser
     });
+	
 }]);
